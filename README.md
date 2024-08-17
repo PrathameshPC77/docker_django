@@ -13,7 +13,7 @@ You can find the Docker image [here](https://hub.docker.com/r/prxthxmesh/djangop
    ```bash
    git clone https://github.com/PrathameshPC77/docker_django.git
 
-2. **Build the Docker image and Compose:**
+2. **Build the Docker image:**
    
    ```bash
    docker build -t djangoproject .
