@@ -13,26 +13,26 @@ You can find the Docker image [here](https://hub.docker.com/r/prxthxmesh/djangop
    ```bash
    git clone https://github.com/PrathameshPC77/docker_django.git
 
-2. Build the Docker image and Compose:
+2. **Build the Docker image and Compose:**
    
    ```bash
    docker build -t djangoproject .
 
-3. Alternatively, you can pull the pre-built Docker image from Docker Hub:
+3. **Alternatively, you can pull the pre-built Docker image from Docker Hub:**
    
-    ```bash
-     docker pull prxthxmesh/djangoproject:latest
+   ```bash
+   docker pull prxthxmesh/djangoproject:latest
 
 ## Usage
-1. Run the Docker container:
+1. **Run the Docker container:**
    
-    ```bash
-    docker run -p 8000:8000 djangoproject
+   ```bash
+   docker run -p 8000:8000 djangoproject
  
-2. If you pulled the image from Docker Hub, use:
+2. **If you pulled the image from Docker Hub, use:**
    
-    ```bash
-    docker run -p 8000:8000 prxthxmesh/djangoproject:latest
+   ```bash
+   docker run -p 8000:8000 prxthxmesh/djangoproject:latest
     
 This will start the Django application, and it will be accessible at http://localhost:8000/.
 
